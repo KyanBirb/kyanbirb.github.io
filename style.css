@@ -1,0 +1,69 @@
+/*
+colors
+
+    #987284 152, 114, 132
+        #825E6F 130, 94, 111
+
+    #9DBF9E 157, 191, 158
+    #D0D6B5 208, 214, 181
+    #F9B5AC 249, 181, 172
+    #EE7674 238, 118, 116
+*/
+
+a {
+    color: inherit; 
+    text-decoration: inherit; 
+}
+
+body {
+    background: linear-gradient(45deg, #987284 25%, #825e6f 25%, #825e6f 50%, #987284 50%, #987284 75%, #825e6f 75%, #825e6f 100%);
+    background-size: 56.57px 56.57px;
+}
+
+#tabs {
+    margin-left: auto; margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.tab {
+    background-color: white;
+    background-color: #9DBF9E;
+    color: white;
+
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    margin-right: 20px;
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+
+    transition: 1s;
+}
+
+.tab:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+
+    transition: 200ms;
+}
+
+
+#birb {
+    background: radial-gradient(white, rgba(0, 0, 0, 0) 70%);
+    padding: 100px;
+
+    margin-left: auto; margin-top: 10%; margin-right: auto;
+    display: block;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: auto; margin-right: auto;
+    width: 5%;
+}
